@@ -3,16 +3,5 @@
   "displayName": "GitHub Copilot",
   "command": "copilot",
   "args": ["--acp"],
-  "env": {},
-  "modelCli": {
-    "selectFlag": "--model",
-    "primaryModels": [
-      "gpt-5.6-terra",
-      "gpt-5.6-luna",
-      "gpt-5.4",
-      "gpt-5.3-codex",
-      "claude-sonnet-5",
-      "claude-sonnet-4.6"
-    ]
-  }
+  "env": {}
 }
