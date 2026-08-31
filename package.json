@@ -1,7 +1,8 @@
 {
-  "name": "bb-plugin-copilot",
-  "version": "0.2.0",
+  "name": "bb-plugin-gh-copilot",
+  "version": "0.4.0",
   "description": "Adds GitHub Copilot CLI to bb as an ACP coding-agent provider.",
+  "license": "MIT",
   "type": "module",
   "keywords": [
     "bb",
@@ -10,13 +11,13 @@
     "coding-agent",
     "copilot"
   ],
-  "homepage": "https://github.com/ai-ecoverse/bb-copilot#readme",
+  "homepage": "https://github.com/ai-ecoverse/bb-gh-copilot#readme",
   "bugs": {
-    "url": "https://github.com/ai-ecoverse/bb-copilot/issues"
+    "url": "https://github.com/ai-ecoverse/bb-gh-copilot/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ai-ecoverse/bb-copilot.git"
+    "url": "git+https://github.com/ai-ecoverse/bb-gh-copilot.git"
   },
   "engines": {
     "bb": ">=0.40",
@@ -34,6 +35,7 @@
   },
   "scripts": {
     "build": "bb plugin build .",
+    "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -62,6 +64,7 @@
     "sonner": "^1.7.4",
     "tailwind-merge": "^3.4.0",
     "typescript": "^5.7.0",
-    "vaul": "^1.1.2"
+    "vaul": "^1.1.2",
+    "vitest": "4.1.11"
   }
 }

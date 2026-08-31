@@ -2,8 +2,8 @@
   "sdkMajor": 0,
   "sdkVersion": "0.4.21",
   "artifactFormatVersion": 1,
-  "pluginId": "copilot",
-  "pluginVersion": "0.2.0",
+  "pluginId": "gh-copilot",
+  "pluginVersion": "0.4.0",
   "builtWith": {
     "bbVersion": "0.40.0",
     "pluginSdkVersion": "0.4.21"
